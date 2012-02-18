@@ -4,7 +4,7 @@
   <title><![CDATA[A Crimson Squirrel in Japan]]></title>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2012-02-16T00:24:16+09:00</updated>
+  <updated>2012-02-18T18:35:11+09:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Chris Helmich]]></name>
@@ -12,5 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ようこそ]]></title>
+    <link href="http://yoursite.com/blog/2012/02/18/youkoso/"/>
+    <updated>2012-02-18T18:21:00+09:00</updated>
+    <id>http://yoursite.com/blog/2012/02/18/youkoso</id>
+    <content type="html"><![CDATA[<p>Welcome to my blog.</p>
+
+<p>My name is 紅栗鼠 (read Kurisu) and I&#8217;m a graphics programmer working and living in Tokyo, Japan.
+I&#8217;ll be blogging here on how to cope with work, life and the daily craziness in Japan.</p>
+
+<p>I hope you&#8217;ll enjoy reading my rants.</p>
+
+<p>よろしくお願いします。</p>
+]]></content>
+  </entry>
   
 </feed>
