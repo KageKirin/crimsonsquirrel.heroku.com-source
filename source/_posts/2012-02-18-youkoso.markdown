@@ -1,0 +1,17 @@
+---
+layout: post
+title: "ようこそ"
+date: 2012-02-18 18:21
+comments: true
+categories: 
+---
+
+Welcome to my blog.
+
+My name is 紅栗鼠 (read Kurisu) and I'm a graphics programmer working and living in Tokyo, Japan.
+I'll be blogging here on how to cope with work, life and the daily craziness in Japan.
+
+I hope you'll enjoy reading my rants.
+
+よろしくお願いします。
+
