@@ -1,0 +1,13 @@
+- video games industry
+- japanese TV
+-- talk shows (talking as a fulltime job)
+-- omnipresence of food (there's no show without food)
+-- "variety bangumi" ("talentos" missing talent)
+-- movies (cut, censored, shortened, dubbed. just enough to make you wanna buy/rent the movie)
+-- asa-drama
+-- jidai-geki (daily brutality of the past)
+-- news
+- the "insular country" traumatism (or why japanese are closed to foreigners) (aka, the bullshit of a closed country)
+- the english traumatism (or why japanese people are conviced they cannot learn proper english)
+- proper gyms in Tokyo
+- learning martial arts in Tokyo
