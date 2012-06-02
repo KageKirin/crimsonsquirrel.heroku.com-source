@@ -1,13 +1,29 @@
 #!/bin/bash
 
-echo "regenerating site"
+echo "saving site changes"
 git add _config.yml
 git commit -m "updated _config.yml"
 git add sass
 git commit -m "updated stylesheets"
 git add source
 git commit -m "updated blog pages"
+git commit -am "saved other changes"
+
+#echo "syncing with remote origin"
+#git pull origin master
+
+echo "updating octopress"
+git pull octopress master
+
+
+echo "regenerating site"
 rake generate
+
+echo "deploying site"
 git add . 
 git commit -am "regenerated blog"
 git push heroku master
+
+echo "backing up"
+git push backup master
+
