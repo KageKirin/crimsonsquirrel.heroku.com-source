@@ -2,18 +2,34 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://yoursite.com/blog/2012/02/18/youkoso/</loc>
-        <lastmod>2012-02-18T18:34:50+09:00</lastmod>
+        <lastmod>2012-06-03T21:43:10+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yoursite.com/blog/2012/03/24/a-requiem-to-the-japanese-games-industry/</loc>
+        <lastmod>2012-06-03T21:43:10+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yoursite.com/404.html</loc>
+        <lastmod>2012-06-03T17:26:42+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yoursite.com/404.html</loc>
+        <lastmod>2012-06-03T21:43:10+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/about/</loc>
-        <lastmod>2012-02-21T00:18:32+09:00</lastmod>
+        <lastmod>2012-06-03T21:43:10+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2012-02-18T18:34:50+09:00</lastmod>
+        <lastmod>2012-06-03T21:43:10+09:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yoursite.com/feed/index.xml</loc>
+        <lastmod>2012-06-03T18:45:30+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/</loc>
-        <lastmod>2012-02-18T18:34:50+09:00</lastmod>
+        <lastmod>2012-06-03T21:43:10+09:00</lastmod>
     </url>
 </urlset>

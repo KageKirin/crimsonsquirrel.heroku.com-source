@@ -4,7 +4,7 @@
   <title><![CDATA[A Crimson Squirrel in Japan]]></title>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2012-02-21T00:23:55+09:00</updated>
+  <updated>2012-06-03T21:43:25+09:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Chris Helmich]]></name>
@@ -12,6 +12,121 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Requiem to the Japanese Games Industry]]></title>
+    <link href="http://yoursite.com/blog/2012/03/24/a-requiem-to-the-japanese-games-industry/"/>
+    <updated>2012-03-24T01:09:00+09:00</updated>
+    <id>http://yoursite.com/blog/2012/03/24/a-requiem-to-the-japanese-games-industry</id>
+    <content type="html"><![CDATA[<p>The Japanese Games Industry is decaying and as much full of life as zombie.<br/>
+It&#8217;s not me saying, but a couple of people said this 7 years ago, when there was still hope.</p>
+
+<p>But today? There isn&#8217;t much left but companies struggling to survive.</p>
+
+<h2>Why do I care?</h2>
+
+<p>Because I grew up with Japanese games.<br/>
+The first game I ever played when I was 3 was Namco&#8217;s <em>Pacman</em>. In school, I played <em>Super Mario Land</em> on my friends&#8217; Gameboy and the reason I became a game programmer was SEGA&#8217;s <em>Sonic The Hedgehog</em> which made such a lasting impression on then 14 years old self that I decided to work in the games.<br/>
+Later, I enjoyed several episodes of Squaresoft&#8217;s RPGs and A-RPGs, <em>Final Fantasy</em>, <em>Chrono Trigger</em>, <em>Chrono Cross</em>, <em>Seiken Densetsu</em>, not to forget the <em>Megaman</em> games, the <em>Zelda</em> games and all the other games I wasted my youth upon.</p>
+
+<p>So yes, if only for this single reason, I do care about Japanese games. The games industry, that was once full of life and the garden of new and fresh game designs that inspired me. It&#8217;s be sad to see a &#8220;childhood friend&#8221; die like this.</p>
+
+<p>But there&#8217;s the other reason, that now, I&#8217;m finally in Japan, working with a renouned game designer on &#8220;His Next Epic Masterpiece&#8221;.</p>
+
+<h2>What has happened?</h2>
+
+<p>In short, the games world has changed and Japanese game studios, or rather their workers, failed to adapt.</p>
+
+<p>The long story (mostly my analysis of the facts) as follows:</p>
+
+<p>http://xbox360.ign.com/articles/122/1221032p1.html
+http://press2reset.com/2012/03/19/analysis-is-japanese-innovation-really-dead/
+http://blog.hardcoregaming101.net/2012/03/in-defense-of-japanese-gaming-industry.html
+http://www.giantbomb.com/news/keiji-inafunes-message-to-japanese-developers/4028/</p>
+
+<p>http://www.destructoid.com/tgs-09-keiji-inafune-dumps-on-tokyo-game-show-2009-149909.phtml
+http://www.nytimes.com/2010/09/20/technology/20game.html?<em>r=2
+http://www.gamasutra.com/view/feature/6521/we_need_heroes_inafune_speaks.php
+http://www.gamasutra.com/view/news/164913/gdc_2012_japanese_industry_has</em>.php</p>
+
+<h2>Ways out of the dilemma</h2>
+
+<h3>Publishers</h3>
+
+<p>Give new companies a chance. It might pay off.
+The games industry is small, even more so in Japan. So chances are that new companies are created by former employees of another studio, hence veterans who have an idea about what to do.
+So even if such a company hasn&#8217;t released any game yet, it&#8217;s worth the risk to investigate in them.</p>
+
+<h3>Studio bosses</h3>
+
+<p>Create acceptable working conditions.
+Crunching or doing long hours of overwork, bascially having the employees stay in the company for a fortnight <strong>is not acceptable</strong> nor is it legal. Even more, it is hurting your own company.
+Relaxed developpers produce better work, higher quality and less errors, which results in fewer bugs to fix, hence more time to actually focus on the core game. The 40h week is a fair concept for more than a century (mostly outsude of Japan though).</p>
+
+<p>Really, create working conditions at least at par with international standards. This might include free gym membership (fit and healthy employees have less sickness times and are overall more motivated).</p>
+
+<p>Hire smart(er) people. If you think your developpers can&#8217;t keep up with the West, just hire smarter people. Or train your employees.
+Seriously, what I have seen on code, I&#8217;m not sure when people were programming like that, but it might just go back to the early stone age.
+(I&#8217;d like to give an example, but NDA oblige…)</p>
+
+<p>Hire international developpers.
+A lot of westernes would love to work in Japan for a while. They might join and bring in their knowledge, if the owrking conditions and pay are &#8220;motivating&#8221;.</p>
+
+<h3>Developpers</h3>
+
+<p>Focus on what you prooved to do right.
+I mean, mounting a Jetpack on an opossum was genius (the opossum might disagree). You created great gameplay in the past and grerat visuals too.
+There&#8217;s no reason you can&#8217;t do that nowadays.
+Journey, Flower, fl0w etc just proved that you don&#8217;t need high-end graphics for a game.</p>
+
+<p>Focus on new ideas.
+Remember how to create gameplay? Take the canon of a genre, remove it&#8217;s main feature, replace it with main feature of another genre.</p>
+
+<p>Try out new ideas.
+Prototyping a new idea can be hard. But there are ways to get immediate feedback through crowdsourcing. Just your prototype played as an indie title by millions of gamers by publishing it on Steam. Plus you generate product buzz around your company.</p>
+
+<p>Don&#8217;t depend on publishers.
+There are other channels to raise funds (Kickstarter just showed how to do it) or to publish your game, with all the AppStores and SteamStores around.</p>
+
+<p>Create a visual identity.
+A consistent visual identity might make your game stick out of the mass of other games around.
+Ookami might have failed, but everyone is remembering its awesome style.</p>
+
+<p>Don&#8217;t fall in the reinvention of the wheel trap.
+Developping your own engine might be fun for programmers (it is!) but it&#8217;s not making you any money. Plus you&#8217;re never gonna catch up with researcher teams.
+Instead use engines. With CryEngine3, UE3, Unity, Vision and even more engines around, you have a broad choice.</p>
+
+<p>Focus on efficent workflow</p>
+
+<p>Get the orrect hardware</p>
+
+<p>Get agile.</p>
+
+<p>Test-driven development</p>
+
+<p>Get expert council. If your game is rich in cinematics, you might as well want ot get expert knowledge on putting the cut scenes on shape from people in the movie industry.</p>
+
+<p>Stop focussing on niche groups.
+The Otaku who prefers his virtual girlfriend to fleshy girls is mostly limited to Japan. So why care about him if you could have millions more gamers play your game in the rest of the world.</p>
+
+<p>Know your target audience.</p>
+
+<p>Don&#8217;t play catch up with the west.
+Especially, don&#8217;t micic western games (that much).</p>
+
+<h3>Employees</h3>
+
+<p>Learn english</p>
+
+<p>Go to GDC events abroad</p>
+
+<p>Improve yourself.</p>
+
+<p>Have a side-project</p>
+
+<p>Stop working over time and get a life.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ようこそ]]></title>
