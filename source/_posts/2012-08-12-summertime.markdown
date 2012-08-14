@@ -3,13 +3,13 @@ layout: post
 title: "Summertime"
 date: 2012-08-12 15:06
 comments: true
-categories: 
+categories: ["japan"]
 ---
 It's summer in Japan.  
 Meaning, it's way too hot for
-the typical Northern European human.  
+the typical Northern European human being.  
 Although, I do approve of the sun and the heat,
-it's hard to cope with the ambient humidity.
+it's hard to cope with those 80+% of ambient humidity.
 
 Ah, the heat, especially when you're in Tokyo,
 you'll notice a couple of physical laws in action:
