@@ -36,7 +36,8 @@ and to be standing below the overly cold air blaster in the train.
 
 The ambient heat has one nice point, though:  
 the cute exemplary of Japanese females are wearing very short
-and very light clothes…
+and very light clothes. ;)
+
 
 
 But the maybe biggest drawback of the heat is the heat induced  unability of thorough sleep at night…
