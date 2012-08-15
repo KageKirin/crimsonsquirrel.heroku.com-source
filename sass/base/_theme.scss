@@ -1,288 +1,86 @@
-* { -moz-box-sizing: border-box; box-sizing: border-box; }
+$noise-bg: image-url('noise.png') top left !default;
+$img-border: inline-image('dotted-border.png');
 
-body { color: $text-color; background: adjust-color($text-color, $lightness: -30%, $saturation: 20%); }
+// Main Link Colors
+$link-color: lighten(#165b94, 3) !default;
+$link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
+$link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !default;
+$link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
+
+// Main Section Colors
+$main-bg: #f8f8f8 !default;
+$page-bg: #252525 !default;
+$article-border: #eeeeee !default;
+
+$header-bg: #333 !default;
+$header-border: lighten($header-bg, 15) !default;
+$title-color: #f2f2f2 !default;
+$subtitle-color: #aaa !default;
+
+$text-color: #222 !default;
+$text-color-light: #aaa !default;
+$type-border: #ddd !default;
+
+/* Navigation */
+$nav-bg: #ccc !default;
+$nav-bg-front: image-url('noise.png') !default;
+$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
+$nav-color: darken($nav-bg, 38) !default;
+$nav-color-hover: darken($nav-color, 25) !default;
+$nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
+$nav-border: darken($nav-bg, 10) !default;
+$nav-border-top: lighten($nav-bg, 15) !default;
+$nav-border-bottom: darken($nav-bg, 25) !default;
+$nav-border-left: darken($nav-bg, 11) !default;
+$nav-border-right: lighten($nav-bg, 7) !default;
+
+/* Sidebar colors */
+$sidebar-bg: #f2f2f2 !default;
+$sidebar-link-color: $link-color !default;
+$sidebar-link-color-hover: $link-color-hover !default;
+$sidebar-link-color-active: $link-color-active !default;
+$sidebar-color: change-color(mix($text-color, $sidebar-bg, 80), $hue: hue($sidebar-bg), $saturation: saturation($sidebar-bg)/2) !default;
+$sidebar-border: desaturate(darken($sidebar-bg, 7), 10) !default;
+$sidebar-border-hover: darken($sidebar-bg, 7) !default;
+$sidebar-link-color-subdued: lighten($sidebar-color, 20) !default;
+$sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
+$twitter-status-link: lighten($sidebar-link-color-subdued, 15) !default;
+
+$footer-color: #888 !default;
+$footer-bg: #ccc !default;
+$footer-bg-front: image-url('noise.png') !default;
+$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11)) !default;
+$footer-color: darken($footer-bg, 38) !default;
+$footer-color-hover: darken($footer-color, 10) !default;
+$footer-border-top: lighten($footer-bg, 15) !default;
+$footer-border-bottom: darken($footer-bg, 15) !default;
+$footer-link-color: darken($footer-bg, 38) !default;
+$footer-link-color-hover: darken($footer-color, 25) !default;
+$page-border-bottom: darken($footer-bg, 5) !default;
+
+
+/* Core theme application */
 
 a {
   @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
-  text-decoration: none;
+}
+aside.sidebar a {
+  @include link-colors($sidebar-link-color, $hover: $sidebar-link-color-hover, $focus: $sidebar-link-color-hover, $active: $sidebar-link-color-active);
+}
+a {
+  @include transition(color .3s);
 }
 
-code { @extend .less-focus; color: darken($text-color, 30%); }
-li { margin-bottom: 1em; }
-
-.content, 
-#articles,
-footer[role="contentinfo"] { @extend .default-width; }
-
-.container { background-color: #eee; background-image: image-url('bgnoise_lg.png'); padding-bottom: 3em; }
-
-.twitter { @extend .icons; background-image: image-url('twitter.png'); }
-.youtube { @extend .icons; background-image: image-url('youtube.png'); }
-.github { @extend .icons; background-image: image-url('github.png');  background-size: 16px 16px; }
-.rss { @extend .icons; background-image: image-url('rss.png'); background-size: 10px 10px; }
-
-
-.sitenav { 
-  margin: 0 0 2em 0; 
-  clear: both;  
+html {
+  background: $page-bg image-url('line-tile.png') top left;
 }
-
-.sitenav a { 
-  @extend .least-focus; 
-  margin: 0 1em 0 0;
-  text-transform: uppercase 
-}
-
-body header[role="banner"] h1,
-body header[role="banner"] h2 {
-  @extend .title; 
-  @extend .zeropaddingmargin;
-  @extend .inline-block;
-  vertical-align: middle;   
-}
-
-body header[role="banner"] h2 { margin-left: 0.5em; }
-
-body header[role="banner"] h2 a {
-  &:nth-child(2) { background-color: #90a935; }
-
-  &:nth-child(3) { background-color: #d24739; }  
-  
-  &:nth-child(4) { background-color: saturate($link-color, 20%); }    
-}
-
-
-
-nav.article {
-  white-space: nowrap;
-  a.next,
-  a.previous {
-    @extend .inline-block;    
-    font-size: 4em;
-    line-height: 1;
-    cursor: pointer;
-    width: 1em;
-    text-align: left; 
-    color: lighten($text-color, 50%);
-    font-family: menlo, sans-serif;
-    
-    &:hover { color: $link-color; }
-  }
-}
-
-article > header time,
-article > header h1 { @extend .zeropaddingmargin; }
-
-article > header time { 
-  @extend .least-focus; 
-  line-height: 1.4; 
-  width: 6em; 
-  text-transform: uppercase; 
-}
-
-article > header time::before,
-.blog-archives article time::before { 
-  content: "⢷⡾";
-  letter-spacing: -2px; 
-  margin-right: 0.5em; 
-}
-
-article > header .archive-title { padding-top: 0.46em; }
-
-article .entry-content > p:first-child { 
-  @extend .larger-focus; 
-  line-height: 1.4;
-  margin: 1.4em 0;  
-}
-
-article footer { 
-  @extend .less-focus; 
-  margin: 5em auto 0;
-  position: relative;
-  color: #aaa;
-  font-style: italic;
-}
-
-article footer::after,
-article footer::before {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -2em;
-  text-align: center;
-  color: #eee;
-  font-style: normal;
-}
-
-article footer::before {
-  @extend .larger-focus;  
-  content: "❮ ❤ ❯";
-  background: #fff;
-  border-radius: 3em;
-  left: 50%;
-  margin-left: -1.5em;
-  width: 3em;
-  z-index: 2;
-}
-
-article footer::after {
-  content: "";
-  top: -1.75em;
-  border-top: 1px dotted;
-  width: 50%;
-  margin: 0 auto;
-  display: block;
-}
-
-// COMMENTS
-article + section {
-  margin-top: 4em;
-}
-
-// FOOTER ARTICLES
-#articles { margin-top: 2em; }
-
-#articles > p { @extend .less-focus; margin-bottom: 2em; }
-
-#articles .avatar { 
-  margin-right: 0.5em; 
-  border-radius: 10em;
-  box-shadow: 0 0 1em darken($text-color, 40%);
-}
-
-#articles li { 
-  @extend .less-focus; 
-  @extend .zeropaddingmargin;   
-  @extend .ellipsis;
-  @extend .inline-block;  
-  list-style: none; 
-  line-height: 1.5; 
-  padding: 0.5em 0.2em;  
-  width: 100%;   
-  vertical-align: top; 
-  border-bottom: 1px dotted;
-} 
-
-#articles li:last-child {
-  overflow: visible;
-  padding-bottom: 0;
-  
-  &:hover {
-    background: -o-linear-gradient(to right, rgba( #d58742, 0),  rgba( #d58742, 1));
-    background: -webkit-linear-gradient(0deg, rgba( #d58742, 0),  rgba( #d58742, 1));  
-    background: -moz-linear-gradient(to right, rgba( #d58742, 0),  rgba( #d58742, 1));  
-    background: -ms-linear-gradient(to right, rgba( #d58742, 0),  rgba( #d58742, 1));      
-    
-     .btn { color: adjust-color($link-color, $lightness: 60%, $saturation: -20%); }
-     .btn::after {
-      position: absolute;
-      top: -0.3em; right: -0.9em;
-      width: 0; height: 0;
-      border-top: 0.8em solid transparent;
-      border-bottom: 0.8em solid transparent;
-      border-left: 0.8em solid rgba( #d58742, 1);
-      content: "";
-      display: block;    
+body {
+  > div {
+    background: $sidebar-bg $noise-bg;
+    border-bottom: 1px solid $page-border-bottom;
+    > div {
+      background: $main-bg $noise-bg;
+      border-right: 1px solid $sidebar-border;
     }
   }
-}
-
-#articles .btn {
-  @extend .inline-block;
-  width: 100%; 
-  line-height: 1.35;
-  text-align: right;   
-  position: relative;
-  height: 100%;
-  
-}
-
-
-footer[role="contentinfo"] { 
-  @extend .least-focus; 
-  margin: 3.33em auto; 
-}
-
-
-// ARCHIVES
-
-.blog-archives article { padding: 1em 0 0 0; }
-
-.blog-archives article h2 { 
-  @extend .zeropaddingmargin;
-  @extend .ellipsis;  
-  padding-bottom: 0.5em; 
-  border-bottom: 1px dotted;  
-}
-
-.blog-archives article time { @extend .least-focus; text-transform: uppercase; }
-.blog-archives h2 + article h2 { margin-top: 0; }
-.blog-archives > h2 { margin-top: 2em; }
-
-
-@media (min-width: 800px) {
-  header[role="banner"] { 
-    float: left; 
-    margin-top: 2em;     
-  }
-  
-  .sitenav { margin: 0 0 6em 0; }
-  .viz .sitenav { margin-bottom: 20em; }
-  
-  .viz > iframe {
-    position: absolute;
-    top: 8em;
-    left: 0;
-    height: 340px;
-    border: 0;
-    opacity: 0.3;
-    z-index: 3;
-    -o-transition: opacity 100ms linear;    
-    -webkit-transition: opacity 100ms linear;
-    -moz-transition: opacity 100ms linear;    
-    -ms-transition: opacity 100ms linear;    
-  }
-  
- .viz > iframe:hover { 
-    opacity: 1
-  }
-  nav.article {
-    width: 48em;
-    position: fixed;
-    height: 8em;
-    margin: 1em 0 0 0;
-    z-index: -1;
-  }
-  
-  .content,
-  #articles {
-    position: relative;
-    z-index: 2;
-  }
-  
-  nav.article a.previous,
-  nav.article a.next {  
-    height: 100%;
-    width: 54%;
-    margin: 0 0.4em 0 -1.5em;
-    text-align: left;         
-  }
-  
-  nav.article a.next {
-    margin: 0;
-    text-align: right;     
-  }
-  
-  nav.article a:only-child { width: 100%; }  
-  nav.article a.next:only-child { padding-left: 1em; }
-  
-  #articles li { width: 33%; }
-  
-  .blog-archives article time { 
-    @extend .inline-block;
-    width: 9em; 
-    float: left; 
-    line-height: 3em; 
-  }
-  
 }
