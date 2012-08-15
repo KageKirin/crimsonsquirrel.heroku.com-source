@@ -2,19 +2,19 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://yoursite.com/blog/2012/02/18/youkoso/</loc>
-        <lastmod>2012-06-03T21:43:10+09:00</lastmod>
+        <lastmod>2012-08-15T15:23:44+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/2012/03/24/a-requiem-to-the-japanese-games-industry/</loc>
-        <lastmod>2012-06-03T21:43:10+09:00</lastmod>
+        <lastmod>2012-08-15T15:23:44+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/2012/08/12/summertime/</loc>
-        <lastmod>2012-08-14T16:01:44+09:00</lastmod>
+        <lastmod>2012-08-15T15:23:44+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/2012/08/14/olympics/</loc>
-        <lastmod>2012-08-14T15:28:32+09:00</lastmod>
+        <lastmod>2012-08-15T15:23:44+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/404.html</loc>
@@ -22,15 +22,15 @@
     </url>
     <url>
         <loc>http://yoursite.com/404.html</loc>
-        <lastmod>2012-06-03T21:43:10+09:00</lastmod>
+        <lastmod>2012-08-15T15:23:44+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/about/</loc>
-        <lastmod>2012-06-03T21:43:10+09:00</lastmod>
+        <lastmod>2012-08-15T15:23:44+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2012-08-14T16:01:44+09:00</lastmod>
+        <lastmod>2012-08-15T15:23:44+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/feed/index.xml</loc>
@@ -38,6 +38,6 @@
     </url>
     <url>
         <loc>http://yoursite.com/</loc>
-        <lastmod>2012-08-14T16:01:44+09:00</lastmod>
+        <lastmod>2012-08-15T15:23:44+09:00</lastmod>
     </url>
 </urlset>
