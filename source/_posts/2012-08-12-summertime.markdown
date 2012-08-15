@@ -44,7 +44,7 @@ But the maybe biggest drawback of the heat is the heat induced  unability of tho
 In short: I want a new ice age!
 
 
-Tourist guide: Best places to spend the summer around Tokyo:
+h2. Tourist guide: Best places to spend the summer around Tokyo:
 
 -   shopping malls, department stores, everywhere where it's climatised.
 -   Hokkaido. It has a different climate. (Ok, it's NOT around Tokyo).
