@@ -15,8 +15,7 @@ var github = (function(){
         , error: function (err) { $(options.target + ' li.loading').addClass('error').text("Error loading feed"); }
         , success: function(data) {
           var repos = [];
-          if (!data || !data.repositories) { return; }
-          for (var i = 0; i < data.repositories.length; i++) {
+          for (var i = 0; i < data.repositories.length; i++){
             if (options.skip_forks && data.repositories[i].fork) { continue; }
             repos.push(data.repositories[i]);
           }
@@ -31,7 +30,7 @@ var github = (function(){
           if (options.count) { repos.splice(options.count); }
           render(options.target, repos);
         }
-      });
+      })
     }
   };
 })();
