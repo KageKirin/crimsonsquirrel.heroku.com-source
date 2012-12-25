@@ -17,6 +17,10 @@
         <lastmod>2012-08-15T15:44:34+09:00</lastmod>
     </url>
     <url>
+        <loc>http://yoursite.com/blog/2012/12/25/meri-kuri/</loc>
+        <lastmod>2012-12-25T23:12:50+09:00</lastmod>
+    </url>
+    <url>
         <loc>http://yoursite.com/404.html</loc>
         <lastmod>2012-08-15T15:41:55+09:00</lastmod>
     </url>
@@ -30,11 +34,11 @@
     </url>
     <url>
         <loc>http://yoursite.com/archives/</loc>
-        <lastmod>2012-08-15T15:44:34+09:00</lastmod>
+        <lastmod>2012-12-25T23:12:50+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2012-08-15T15:42:39+09:00</lastmod>
+        <lastmod>2012-12-25T23:12:50+09:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/feed/index.xml</loc>
@@ -42,6 +46,6 @@
     </url>
     <url>
         <loc>http://yoursite.com/</loc>
-        <lastmod>2012-08-15T15:44:35+09:00</lastmod>
+        <lastmod>2012-12-25T23:12:50+09:00</lastmod>
     </url>
 </urlset>
